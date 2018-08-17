@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+<h1 style="color:blue;font-family:verdana;text-align:center;">SHOP ITEMS</h1>
+
+  {% if act %}
+  <form action="/cost/" method="POST" name ="CUSTOMER">
+    {% csrf_token %}
+        {{act}}
+      <input type="submit" value="click">
+  </form>
+
+<h2 style="color:green;font-family:verdana;text-align:center;">CUSTOMER DETAILS </h2>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>ADDRESS</th>
+    <th>MOBILE_NO</th>
+    <th>CREATED</th>
+    <th>UPDATED</th>
+  </tr>
+   {% for x in act %}
+  <tr>
+    <td>{{x.name}}</td>
+    <td>{{x.Address}}</td>
+    <td>{{x.mobile_no}}</td>
+    <td>{{x.created}}</td>
+    <td>{{x.updated}}</td>
+    <td>{{x.updated}}</td>
+  </tr>
+   {% endfor %}
+ </table>
+
+ {% elif fun %}
+ <form action="/app/" method="POST" name ="CATEGORIES">
+   {% csrf_token %}
+       {{fun}}
+     <input type="submit" value="Add">
+ </form>
+
+
+  <h2 style="color:blue;font-family:verdana;text-align:center;">CATEGORIES DETAILS</h2>
+ <table>
+   <tr>
+     <th>ID</th>
+     <th>NAME</th>
+     <th>CREATED</th>
+     <th>UPDATED</th>
+     <th>AVALIABLE</th>
+   </tr>
+    {% for x in fun %}
+   <tr>
+     <td>{{x.id}}</td>
+     <td>{{x.name}}</td>
+     <td>{{x.created}}</td>
+     <td>{{x.updated}}</td>
+     <td>{{x.status}}</td>
+   </tr>
+    {% endfor %}
+
+  </table>
+
+  {% elif cat %}
+
+
+  <h2 style="color:blue;font-family:verdana;text-align:center;">ITEMS DETAILS</h2>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>NAME</th>
+      <th>CATAGORIE</th>
+      <th>DESCRIPTION</th>
+      <th>PRICE</th>
+      <th>CREATED</th>
+      <th>UPDATED</th>
+      <th>AVALIABLE</th>
+    </tr>
+     {% for x in cat %}
+    <tr>
+      <td>{{x.id}}</td>
+      <td>{{x.name}}</td>
+      <td>{{x.catogorie.name}}</td>
+      <td>{{x.Description}}</td>
+      <td>{{x.price}}</td>
+      <td>{{x.created}}</td>
+      <td>{{x.updated}}</td>
+      <td>{{x.status}}</td>
+    </tr>
+     {% endfor %}
+   </table>
+   {% elif ord %}
+      <h2 style="color:blue;font-family:verdana;text-align:center;">ORDERS DETAILS</h2>
+   <table>
+     <tr>
+       <th>ID</th>
+       <th>CUSTOMER NAME</th>
+       <th>ITEM NAME</th>
+       <th>CATAGORIE</th>
+       <th>TOTAL_PRICE</th>
+       <th>CREATED</th>
+       <th>UPDATED</th>
+       <th>AVALIABLE</th>
+     </tr>
+      {% for x in fun %}
+     <tr>
+       <td>{{x.id}}</td>
+       <td>{{x.cust.name}}</td>
+       <td>{{x.item.name}}</td>
+       <td>{{x.catogorie.name}}</td>
+       <td>{{x.Total_price}}</td>
+       <td>{{x.created}}</td>
+       <td>{{x.updated}}</td>
+       <td>{{x.status}}</td>
+     </tr>
+      {% endfor %}
+    </table>
+    {% elif hat %}
+      <h2 style="color:blue;font-family:verdana;text-align:center;">TOTAL PRICE IN ORDERS</h2>
+    <table>
+      <tr>
+        <th>CUSTOMER NAME</th>
+        <th>ITEM</th>
+        <th>CATEGORIE</th>
+        <th>TOTAL_PRICE</th>
+      </tr>
+       {% for x in hat %}
+      <tr>
+        <td>{{x.cust}}</td>
+        <td>{{x.item}}</td>
+        <td>{{x.catogorie}}</td>
+        <td>{{x.total_price}}</td>
+      </tr>
+       {% endfor %}
+     </table>
+  {% endif %}
+ </body>
+</html>

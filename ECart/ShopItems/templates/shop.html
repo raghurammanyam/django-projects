@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ECart</title>
+  </head>
+  <h1> SHOP ITEMS</h1>
+  <body>
+       {% if act %}
+       <div>
+         <h2 style ="color:blue;font-family:verdana;">CUSTOMER DETAILS</h2>
+         {% for  x in act  %}
+          ID : {{ x.id }}<br>
+          NAME :  {{ x.name }} <br>
+          ADDRESS :  {{  x.Address}}<br>
+          MOBILE_NO:{{ x.mobile_no}}<br>
+          CREATED :{{x.created}}<br>
+          UPDATED : {{x.updated}}<br>
+          <hr>
+         {% endfor %}
+      </div>
+      {%elif fun%}
+      <div>
+         <h2 style ="color:blue;font-family:verdana;">CATEGORIES DETAILS</h2>
+        {% for  x in fun  %}
+         ID : {{ x.id }}<br>
+         NAME :  {{ x.name }} <br>
+         CREATED :{{x.created}}<br>
+         UPDATED : {{x.updated}}<br>
+         STATUS :{{x.status}}<br>
+         <hr>
+        {% endfor %}
+     </div>
+     {%elif cat%}
+     <div>
+        <h2 style ="color:blue;font-family:verdana;">ITEM DETAILS</h2>
+       {% for  x in cat  %}
+        ID : {{ x.id }}<br>
+        CATEGORIE_ID:{{x.catogorie.name}}</br>
+        NAME :  {{ x.name }} <br>
+        PRICE :  {{ x.price }} <br>
+        DESCRIPTION:{{x.Description}}<br>
+        CREATED :{{x.created}}<br>
+        UPDATED : {{x.updated}}<br>
+        STATUS :{{x.status}}<br>
+        <hr>
+       {% endfor %}
+     </div>
+     {%elif ord%}
+     <div>
+        <h2 style ="color:blue;font-family:verdana;text-align:center">ORDER DETAILS</h2>
+       {% for  x in ord  %}
+        ID : {{ x.id }}<br>
+        CUSTOMER_ID :  {{ x.cust.name }} <br>
+        ITEM_ID :  {{ x.Item.name }} <br>
+        CATEGORIE_ID:{{x.catogorie.name}}</br>
+        TOTAL_PRICE : {{ x.Total_price }} <br>
+        CREATED :{{x.created}}<br>
+        UPDATED : {{x.updated}}<br>
+        STATUS :{{x.Status}}<br>
+        <hr>
+       {% endfor %}
+     </div>
+     {%elif hat%}
+     <div>
+       <h2 style ="color:blue;font-family:verdana;">TOTAL_PRICE IN ORDERS </h2>
+       {% for  x in hat  %}
+        CUSTOMER_ID :  {{ x.cust }} <br>
+        ITEM_ID :  {{ x.Item.name }} <br>
+        CATEGORIE_ID:{{x.catogorie.name}}</br>
+        TOTAL_PRICE : {{ x.total_price }} <br>
+       <hr>
+       {% endfor %}
+     </div>
+      {% endif %}
+  </body>
+</html>

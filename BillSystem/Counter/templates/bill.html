@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.Inventory{
+  margin-left: 66%;
+}
+</style>
+</head>
+<body>
+<h1 style="color:blue;font-family:verdana;text-align:center;">Inventory</h1>
+
+  {% if act %}
+
+ <form action="/cost/" method="POST" name =" Edit Inventory" >
+   {% csrf_token %}
+       {{ act.as_p }}
+  <span class="Inventory"> <input type="submit" value="click" ></span>
+ </form>
+
+<h2 style="color:green;font-family:verdana;text-align:center;">Inventory update</h2>
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Rs2000</th>
+    <th>Rs500</th>
+    <th>Rs200</th>
+    <th>Rs100</th>
+    <th>Rs50</th>
+    <th>Rs10</th>
+    <th>Rs5</th>
+    <th>Rs2</th>
+    <th>Rs1</th>
+    <th>CREATED</th>
+    <th>UPDATED</th>
+  </tr>
+   {% for x in act %}
+  <tr>
+    <td>{{x.id}}</td>
+    <td>{{x.Rs2000}}</td>
+    <td>{{x.Rs500}}</td>
+    <td>{{x.Rs200}}</td>
+    <td>{{x.Rs100}}</td>
+    <td>{{x.Rs50}}</td>
+    <td>{{x.Rs10}}</td>
+    <td>{{x.Rs5}}</td>
+    <td>{{x.Rs2}}</td>
+    <td>{{x.Rs1}}</td>
+    <td>{{x.created}}</td>
+    <td>{{x.updated}}</td>
+  </tr>
+   {% endfor %}
+ </table>
+ <h1 style="color:blue;font-family:verdana;text-align:center;">Bill Details</h1>
+
+   {% elif pay %}
+
+  <form action="/test/" method="POST" name =" Edit bill" >
+    {% csrf_token %}
+        {{ pay.as_p }}
+   <span class="Bill"> <input type="submit" value="click" ></span>
+  </form>
+
+ <h2 style="color:green;font-family:verdana;text-align:center;">Bill update</h2>
+ <table>
+   <tr>
+     <th>ID</th>
+     <th>Bill</th>
+     <th>Given Amount</th>
+     <th>Change</th>
+     <th>Rs2000</th>
+     <th>Rs500</th>
+     <th>Rs200</th>
+     <th>Rs100</th>
+     <th>Rs50</th>
+     <th>Rs10</th>
+     <th>Rs5</th>
+     <th>Rs2</th>
+     <th>Rs1</th>
+     <th>CREATED</th>
+   </tr>
+    {% for x in pay %}
+   <tr>
+     <td>{{x.id}}</td>
+     <td>{{x.bill}}</td>
+     <td>{{x.amount}}</td>
+     <td>{{x.change}}</td>
+     <td>{{x.Rs2000}}</td>
+     <td>{{x.Rs500}}</td>
+     <td>{{x.Rs200}}</td>
+     <td>{{x.Rs100}}</td>
+     <td>{{x.Rs50}}</td>
+     <td>{{x.Rs10}}</td>
+     <td>{{x.Rs5}}</td>
+     <td>{{x.Rs2}}</td>
+     <td>{{x.Rs1}}</td>
+     <td>{{x.created}}</td>
+   </tr>
+    {% endfor %}
+  </table>
+  {% endif %}
+ </body>
+</html>
