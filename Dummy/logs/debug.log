@@ -1,0 +1,183 @@
+ERROR 2018-09-11 04:57:56,405 db 32257 139638005823232 something went wrong while posting the data
+INFO 2018-09-11 04:57:56,406 db 32257 139638005823232 ('bobby', 765567876.0, 'nagar', '')
+ERROR 2018-09-11 05:36:42,634 db 1605 140125131273984 something went wrong while posting the data
+INFO 2018-09-11 05:36:42,718 db 1605 140125131273984 ('bobby', 765567876.0, 'nagar', '')
+ERROR 2018-09-11 05:39:41,534 db 1605 140125131273984 something went wrong while posting the data
+INFO 2018-09-11 05:39:41,698 db 1605 140125131273984 ('bobby', 765567876.0, 'nagar', '')
+ERROR 2018-09-11 06:20:25,999 db 6684 140447222724352 something went wrong while posting the data
+INFO 2018-09-11 06:20:33,076 db 6684 140447222724352 ('bobby', 765567876.0, 'nagar', '')
+ERROR 2018-09-11 10:20:58,485 db 14418 140042427954944 something went wrong while posting the data
+INFO 2018-09-11 10:21:01,977 db 14418 140042427954944 ('bobby', 765567876.0, 'nagar', '')
+DEBUG 2018-09-11 10:21:03,551 views 14418 140042427954944 something went wrong
+ERROR 2018-09-11 10:21:44,642 db 14418 140042427954944 something went wrong while posting the data
+INFO 2018-09-11 10:21:44,677 db 14418 140042427954944 ('bobby', 765567876.0, 'nagar', '')
+DEBUG 2018-09-11 10:21:44,825 views 14418 140042427954944 something went wrong
+ERROR 2018-09-11 10:22:32,320 db 14527 140045854832384 something went wrong while posting the data
+INFO 2018-09-11 10:22:32,767 db 14527 140045854832384 ('bobby', 765567876.0, 'nagar', '')
+DEBUG 2018-09-11 10:22:32,827 views 14527 140045854832384 something went wrong
+DEBUG 2018-09-11 10:24:32,681 views 14594 140116374615808 something went wrong
+DEBUG 2018-09-11 10:28:12,782 views 14718 140709423642368 something went wrong
+DEBUG 2018-09-12 10:47:40,683 utils 20148 140377864009472 (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-09-12 10:47:40,684 utils 20148 140377864009472 (0.000) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+DEBUG 2018-09-12 10:47:40,685 utils 20148 140377864009472 (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-12 10:47:40,711 utils 20148 140377864009472 (0.021) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-12 10:49:59,104 log 20148 140377778157312 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-12 10:51:02,539 basehttp 20148 140377778157312 "POST /post HTTP/1.1" 500 89772
+DEBUG 2018-09-12 10:56:29,976 utils 20543 139928547030784 (0.111) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-09-12 10:56:30,223 utils 20543 139928547030784 (0.074) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+DEBUG 2018-09-12 10:56:30,418 utils 20543 139928547030784 (0.194) SHOW FULL TABLES; args=None
+DEBUG 2018-09-12 10:56:31,077 utils 20543 139928547030784 (0.619) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-12 10:56:57,293 log 20543 139928528516864 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hp/carat/Dummy/empty/restapi.py", line 45, in post
+    send_mail('you got an error',error, DEFAULT_FROM_EMAIL,ADMINS,fail_silently=True)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/__init__.py", line 60, in send_mail
+    return mail.send()
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/message.py", line 291, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/backends/smtp.py", line 110, in send_messages
+    sent = self._send(message)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/backends/smtp.py", line 124, in _send
+    message = email_message.message()
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/message.py", line 253, in message
+    msg = SafeMIMEText(self.body, self.content_subtype, encoding)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/message.py", line 166, in __init__
+    MIMEText.__init__(self, _text, _subtype=_subtype, _charset=_charset)
+  File "/usr/lib/python3.5/email/mime/text.py", line 44, in __init__
+    self.set_payload(_text, _charset)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/message.py", line 176, in set_payload
+    for l in payload.splitlines()
+AttributeError: 'LogRecord' object has no attribute 'splitlines'
+ERROR 2018-09-12 10:57:14,815 basehttp 20543 139928528516864 "POST /post HTTP/1.1" 500 20862
+DEBUG 2018-09-12 10:58:20,873 utils 20624 140654458664704 (0.046) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-09-12 10:58:20,948 utils 20624 140654458664704 (0.000) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+DEBUG 2018-09-12 10:58:21,247 utils 20624 140654458664704 (0.299) SHOW FULL TABLES; args=None
+DEBUG 2018-09-12 10:58:21,298 utils 20624 140654458664704 (0.027) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-12 10:58:32,426 log 20624 140654440150784 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-12 10:58:44,219 basehttp 20624 140654440150784 "POST /post HTTP/1.1" 500 89463
+DEBUG 2018-09-12 11:08:19,620 utils 21098 139877588629248 (0.086) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-09-12 11:08:19,864 utils 21098 139877588629248 (0.001) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+DEBUG 2018-09-12 11:08:20,278 utils 21098 139877588629248 (0.414) SHOW FULL TABLES; args=None
+DEBUG 2018-09-12 11:08:20,760 utils 21098 139877588629248 (0.367) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-12 11:08:39,867 log 21098 139877570115328 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hp/carat/Dummy/empty/restapi.py", line 38, in post
+    error = logger.makeRecord(logger.name,logging.error(serializer.errors),0, 0,u"Subject: Some error occured",None, None, "", None,).splitlines(keepends=True)
+AttributeError: 'LogRecord' object has no attribute 'splitlines'
+ERROR 2018-09-12 11:08:45,662 basehttp 21098 139877570115328 "POST /post HTTP/1.1" 500 19770
+DEBUG 2018-09-12 11:09:47,819 utils 21175 139771559933696 (0.027) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-09-12 11:09:47,871 utils 21175 139771559933696 (0.000) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+DEBUG 2018-09-12 11:09:47,996 utils 21175 139771559933696 (0.124) SHOW FULL TABLES; args=None
+DEBUG 2018-09-12 11:09:48,060 utils 21175 139771559933696 (0.041) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-12 11:10:04,994 log 21175 139771541419776 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hp/carat/Dummy/empty/restapi.py", line 38, in post
+    error = logger.makeRecord(logger.name,logging.error(serializer.errors),0, 0,u"Subject: Some error occured",None, None, "", None,).splitlines(keepends=False)
+AttributeError: 'LogRecord' object has no attribute 'splitlines'
+ERROR 2018-09-12 11:10:11,836 basehttp 21175 139771541419776 "POST /post HTTP/1.1" 500 19771
+DEBUG 2018-09-12 11:13:23,976 utils 21298 140570517534464 (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-09-12 11:13:24,127 utils 21298 140570517534464 (0.000) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+DEBUG 2018-09-12 11:13:24,128 utils 21298 140570517534464 (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-12 11:13:24,159 utils 21298 140570517534464 (0.026) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-12 11:13:34,775 log 21298 140570499020544 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hp/carat/Dummy/empty/restapi.py", line 38, in post
+    error = logger.makeRecord(logger.name,logging.error(serializer.errors),0, 0,u"Subject: Some error occured",None, None, "", None,).split(',', maxsplit=1)
+AttributeError: 'LogRecord' object has no attribute 'split'
+ERROR 2018-09-12 11:13:40,463 basehttp 21298 140570499020544 "POST /post HTTP/1.1" 500 19757

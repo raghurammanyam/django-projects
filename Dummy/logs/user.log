@@ -1,0 +1,422 @@
+ERROR 2018-09-11 04:51:34,094 restapi 31997 140458382587648 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 04:52:30,703 restapi 31997 140458382587648 {'name': [ErrorDetail(string='This field is required.', code='required')], 'mobile_no': [ErrorDetail(string='This field is required.', code='required')]}
+ERROR 2018-09-11 06:23:25,511 restapi 6684 140447222724352 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 09:13:10,374 restapi 12425 139727209690880 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 10:29:03,883 restapi 14718 140709423642368 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 10:33:56,365 restapi 14917 140594009601792 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 10:37:41,371 restapi 15058 140035029530368 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 10:43:08,613 restapi 15251 139964170729216 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 10:43:25,383 restapi 15251 139964170729216 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 10:53:51,395 restapi 15251 139964170729216 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 11:45:18,380 restapi 17268 139699755349760 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 11:51:41,863 restapi 17580 140598505895680 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 11:57:17,588 restapi 17860 140476563191552 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 12:00:27,219 restapi 18064 139858210682624 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 12:03:41,774 restapi 18259 140363598165760 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 12:16:46,770 restapi 18920 140708260837120 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 12:37:20,473 restapi 19922 140584775153408 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 12:44:00,809 restapi 20185 140659855980288 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 12:56:11,124 restapi 20795 140633567360768 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 12:58:21,076 restapi 20904 140387711153920 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 13:01:45,874 restapi 21084 140321337865984 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-11 13:15:11,061 restapi 21832 140442570553088 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 03:32:22,160 restapi 2534 140630829790976 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 03:37:42,035 restapi 3657 139744591640320 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 03:45:04,175 restapi 3948 140178576537344 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 03:53:29,082 restapi 4446 139776309950208 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 03:54:35,360 restapi 4489 139831691572992 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 03:56:39,171 restapi 4596 140325224085248 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 03:56:43,266 restapi 4596 140325224085248 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 03:58:26,691 restapi 4674 140065969698560 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:02:37,885 restapi 4854 140555900647168 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:06:23,834 restapi 5034 140255534708480 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:10:27,032 restapi 5298 140699295151872 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:12:17,623 restapi 5414 139884775765760 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:16:24,461 restapi 5732 140685302986496 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:17:04,827 restapi 5772 139905586558720 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:21:24,654 restapi 5960 139908813682432 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:22:04,713 restapi 6025 140082383058688 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:23:32,471 restapi 6103 140007663269632 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:24:27,463 restapi 6194 140294460602112 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:25:39,872 restapi 6325 140352791148288 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:25:48,225 restapi 6325 140352791148288 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:34:45,802 restapi 6722 139879933769472 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:34:49,856 restapi 6722 139879933769472 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:38:24,988 restapi 6927 140244134622976 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:39:02,042 restapi 6970 140707003627264 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:40:02,816 restapi 7037 140459341215488 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:40:44,462 restapi 7123 139810532718336 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:46:30,747 restapi 7371 140126596364032 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:56:41,611 restapi 7751 139668828780288 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 04:58:06,829 restapi 7827 140250875819776 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 05:01:54,743 restapi 8034 139971403577088 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 05:08:18,373 restapi 8477 140176420075264 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 05:10:30,373 restapi 8551 140098184181504 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 05:16:09,302 restapi 8787 139819522553600 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 05:20:34,825 restapi 8930 140375063820032 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 06:01:02,018 restapi 10462 139978367530752 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 06:07:20,325 restapi 10640 139972972410624 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 06:17:23,862 restapi 10947 139987191396096 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 06:47:52,119 restapi 11954 140659926890240 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 06:50:19,427 restapi 12032 140509164697344 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 06:52:00,206 restapi 12162 140602950022912 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 06:52:19,495 restapi 12194 139913442326272 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 07:02:57,847 restapi 12570 139920035280640 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 07:04:00,619 restapi 12620 139751737489152 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 07:04:09,524 Unknown module 12620 139751737489152 Subject: Some error occured
+ERROR 2018-09-12 07:10:12,586 restapi 12806 140060262364928 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 07:10:15,952 Unknown module 12806 140060262364928 Subject: Some error occured
+ERROR 2018-09-12 07:14:23,177 restapi 13042 140539032041216 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 07:14:30,877 Unknown module 13042 140539032041216 Subject: Some error occured
+ERROR 2018-09-12 07:22:12,161 restapi 13191 139704548718336 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 07:24:42,304 restapi 13460 140071578269440 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 07:28:07,783 restapi 13605 140641640675072 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 07:31:04,099 restapi 13705 139949489911552 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 07:32:50,497 Unknown module 13705 139949489911552 Subject: Some error occured
+ERROR 2018-09-12 07:34:27,524 restapi 13853 139861938075392 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 07:34:31,181 Unknown module 13853 139861938075392 Subject: Some error occured
+ERROR 2018-09-12 08:45:25,431 restapi 15482 139800127829760 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 08:48:23,944 restapi 15614 140280471353088 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 08:49:20,447 restapi 15645 140180781790976 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 08:50:57,073 restapi 15740 139728640800512 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 08:51:31,065 restapi 15776 139711342638848 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 08:51:37,476 restapi 15776 139711342638848 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 08:53:03,565 restapi 15842 140027068544768 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 08:55:29,127 restapi 15952 140031871678208 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:05:04,304 restapi 16212 139754746148608 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:09:52,744 restapi 16370 140715177604864 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:12:43,459 restapi 16516 139642057193216 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:13:11,360 restapi 16546 140439568643840 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:21:37,072 restapi 16838 140678486816512 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:23:53,290 restapi 16930 140425180116736 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:24:42,485 restapi 16977 139655621768960 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:25:37,187 restapi 17062 139823365224192 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:26:27,245 restapi 17111 140340455634688 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:30:56,919 restapi 17345 139859593492224 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:32:43,794 restapi 17402 140062018762496 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:36:53,922 restapi 17466 139750909671168 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:40:01,598 restapi 17638 140279145494272 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:40:04,916 Unknown module 17638 140279145494272 Subject: Some error occured
+ERROR 2018-09-12 09:44:24,481 restapi 17776 140258049619712 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:46:22,758 restapi 17882 139948462634752 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:48:03,643 restapi 17935 140101900302080 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:48:06,645 restapi 17935 140101900302080 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:52:50,041 restapi 18138 140227692492544 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:52:53,270 restapi 18138 140227692492544 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:53:11,618 restapi 18166 140007276803840 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:53:14,891 restapi 18166 140007276803840 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:54:42,420 restapi 18243 140683229755136 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 09:54:46,063 restapi 18243 140683229755136 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 10:02:53,254 restapi 18544 140717845509888 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 10:03:13,968 restapi 18544 140717845509888 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 10:06:01,653 restapi 18699 139994274100992 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 10:06:06,122 restapi 18699 139994274100992 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 10:09:24,625 restapi 18808 140180216346368 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 10:09:27,879 restapi 18808 140180216346368 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+DEBUG 2018-09-12 10:47:40,683 utils 20148 140377864009472 (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-09-12 10:47:40,684 utils 20148 140377864009472 (0.000) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+DEBUG 2018-09-12 10:47:40,685 utils 20148 140377864009472 (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-12 10:47:40,711 utils 20148 140377864009472 (0.021) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-12 10:48:52,890 restapi 20148 140377778157312 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 10:49:18,124 restapi 20148 140377778157312 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 10:49:59,104 log 20148 140377778157312 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-12 10:49:59,104 log 20148 140377778157312 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-12 10:51:02,539 basehttp 20148 140377778157312 "POST /post HTTP/1.1" 500 89772
+DEBUG 2018-09-12 10:56:29,976 utils 20543 139928547030784 (0.111) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-09-12 10:56:30,223 utils 20543 139928547030784 (0.074) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+DEBUG 2018-09-12 10:56:30,418 utils 20543 139928547030784 (0.194) SHOW FULL TABLES; args=None
+DEBUG 2018-09-12 10:56:31,077 utils 20543 139928547030784 (0.619) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-12 10:56:44,470 restapi 20543 139928528516864 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 10:56:50,286 restapi 20543 139928528516864 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 10:56:57,293 log 20543 139928528516864 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hp/carat/Dummy/empty/restapi.py", line 45, in post
+    send_mail('you got an error',error, DEFAULT_FROM_EMAIL,ADMINS,fail_silently=True)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/__init__.py", line 60, in send_mail
+    return mail.send()
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/message.py", line 291, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/backends/smtp.py", line 110, in send_messages
+    sent = self._send(message)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/backends/smtp.py", line 124, in _send
+    message = email_message.message()
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/message.py", line 253, in message
+    msg = SafeMIMEText(self.body, self.content_subtype, encoding)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/message.py", line 166, in __init__
+    MIMEText.__init__(self, _text, _subtype=_subtype, _charset=_charset)
+  File "/usr/lib/python3.5/email/mime/text.py", line 44, in __init__
+    self.set_payload(_text, _charset)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/message.py", line 176, in set_payload
+    for l in payload.splitlines()
+AttributeError: 'LogRecord' object has no attribute 'splitlines'
+ERROR 2018-09-12 10:56:57,293 log 20543 139928528516864 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hp/carat/Dummy/empty/restapi.py", line 45, in post
+    send_mail('you got an error',error, DEFAULT_FROM_EMAIL,ADMINS,fail_silently=True)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/__init__.py", line 60, in send_mail
+    return mail.send()
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/message.py", line 291, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/backends/smtp.py", line 110, in send_messages
+    sent = self._send(message)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/backends/smtp.py", line 124, in _send
+    message = email_message.message()
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/message.py", line 253, in message
+    msg = SafeMIMEText(self.body, self.content_subtype, encoding)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/message.py", line 166, in __init__
+    MIMEText.__init__(self, _text, _subtype=_subtype, _charset=_charset)
+  File "/usr/lib/python3.5/email/mime/text.py", line 44, in __init__
+    self.set_payload(_text, _charset)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/mail/message.py", line 176, in set_payload
+    for l in payload.splitlines()
+AttributeError: 'LogRecord' object has no attribute 'splitlines'
+ERROR 2018-09-12 10:57:14,815 basehttp 20543 139928528516864 "POST /post HTTP/1.1" 500 20862
+DEBUG 2018-09-12 10:58:20,873 utils 20624 140654458664704 (0.046) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-09-12 10:58:20,948 utils 20624 140654458664704 (0.000) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+DEBUG 2018-09-12 10:58:21,247 utils 20624 140654458664704 (0.299) SHOW FULL TABLES; args=None
+DEBUG 2018-09-12 10:58:21,298 utils 20624 140654458664704 (0.027) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-12 10:58:26,050 restapi 20624 140654440150784 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 10:58:29,671 restapi 20624 140654440150784 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 10:58:32,426 log 20624 140654440150784 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-12 10:58:32,426 log 20624 140654440150784 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2018-09-12 10:58:44,219 basehttp 20624 140654440150784 "POST /post HTTP/1.1" 500 89463
+DEBUG 2018-09-12 11:08:19,620 utils 21098 139877588629248 (0.086) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-09-12 11:08:19,864 utils 21098 139877588629248 (0.001) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+DEBUG 2018-09-12 11:08:20,278 utils 21098 139877588629248 (0.414) SHOW FULL TABLES; args=None
+DEBUG 2018-09-12 11:08:20,760 utils 21098 139877588629248 (0.367) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-12 11:08:33,624 restapi 21098 139877570115328 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 11:08:39,867 log 21098 139877570115328 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hp/carat/Dummy/empty/restapi.py", line 38, in post
+    error = logger.makeRecord(logger.name,logging.error(serializer.errors),0, 0,u"Subject: Some error occured",None, None, "", None,).splitlines(keepends=True)
+AttributeError: 'LogRecord' object has no attribute 'splitlines'
+ERROR 2018-09-12 11:08:39,867 log 21098 139877570115328 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hp/carat/Dummy/empty/restapi.py", line 38, in post
+    error = logger.makeRecord(logger.name,logging.error(serializer.errors),0, 0,u"Subject: Some error occured",None, None, "", None,).splitlines(keepends=True)
+AttributeError: 'LogRecord' object has no attribute 'splitlines'
+ERROR 2018-09-12 11:08:45,662 basehttp 21098 139877570115328 "POST /post HTTP/1.1" 500 19770
+DEBUG 2018-09-12 11:09:47,819 utils 21175 139771559933696 (0.027) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-09-12 11:09:47,871 utils 21175 139771559933696 (0.000) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+DEBUG 2018-09-12 11:09:47,996 utils 21175 139771559933696 (0.124) SHOW FULL TABLES; args=None
+DEBUG 2018-09-12 11:09:48,060 utils 21175 139771559933696 (0.041) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-12 11:09:55,366 restapi 21175 139771541419776 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 11:10:04,994 log 21175 139771541419776 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hp/carat/Dummy/empty/restapi.py", line 38, in post
+    error = logger.makeRecord(logger.name,logging.error(serializer.errors),0, 0,u"Subject: Some error occured",None, None, "", None,).splitlines(keepends=False)
+AttributeError: 'LogRecord' object has no attribute 'splitlines'
+ERROR 2018-09-12 11:10:04,994 log 21175 139771541419776 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hp/carat/Dummy/empty/restapi.py", line 38, in post
+    error = logger.makeRecord(logger.name,logging.error(serializer.errors),0, 0,u"Subject: Some error occured",None, None, "", None,).splitlines(keepends=False)
+AttributeError: 'LogRecord' object has no attribute 'splitlines'
+ERROR 2018-09-12 11:10:11,836 basehttp 21175 139771541419776 "POST /post HTTP/1.1" 500 19771
+DEBUG 2018-09-12 11:13:23,976 utils 21298 140570517534464 (0.000) SELECT @@SQL_AUTO_IS_NULL; args=None
+DEBUG 2018-09-12 11:13:24,127 utils 21298 140570517534464 (0.000) SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED; args=None
+DEBUG 2018-09-12 11:13:24,128 utils 21298 140570517534464 (0.001) SHOW FULL TABLES; args=None
+DEBUG 2018-09-12 11:13:24,159 utils 21298 140570517534464 (0.026) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+ERROR 2018-09-12 11:13:31,456 restapi 21298 140570499020544 {'mobile_no': [ErrorDetail(string='Ensure this field has no more than 10 characters.', code='max_length')]}
+ERROR 2018-09-12 11:13:34,775 log 21298 140570499020544 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hp/carat/Dummy/empty/restapi.py", line 38, in post
+    error = logger.makeRecord(logger.name,logging.error(serializer.errors),0, 0,u"Subject: Some error occured",None, None, "", None,).split(',', maxsplit=1)
+AttributeError: 'LogRecord' object has no attribute 'split'
+ERROR 2018-09-12 11:13:34,775 log 21298 140570499020544 Internal Server Error: /post
+Traceback (most recent call last):
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/hp/carat/onor/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/hp/carat/Dummy/empty/restapi.py", line 38, in post
+    error = logger.makeRecord(logger.name,logging.error(serializer.errors),0, 0,u"Subject: Some error occured",None, None, "", None,).split(',', maxsplit=1)
+AttributeError: 'LogRecord' object has no attribute 'split'
+ERROR 2018-09-12 11:13:40,463 basehttp 21298 140570499020544 "POST /post HTTP/1.1" 500 19757
